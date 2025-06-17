@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ถึงคนพิเศษของเรา 💖</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 1em;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 20px;
+      margin-top: 1.5em;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+      transition: transform 0.4s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    .hearts {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2em;
+      animation: floatUp 4s ease-in-out infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateX(-50%) translateY(0); opacity: 1; }
+      100% { transform: translateX(-50%) translateY(-100vh); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>รักเธอนะ ❤️</h1>
+  <p>เธอคือความสุขของเราในทุกๆ วัน 🌈</p>
+  <img src="1063BAC1-46B4-4F8A-8665-0AF64501817A.jpeg" alt="คนที่เรารักที่สุดในโลก">
+  <div class="hearts" style="left: 20%;">💖</div>
+  <div class="hearts" style="left: 40%; animation-delay: 1s;">❤️</div>
+  <div class="hearts" style="left: 60%; animation-delay: 2s;">💗</div>
+  <div class="hearts" style="left: 80%; animation-delay: 3s;">💕</div>
+</body>
+</html>
